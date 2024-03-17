@@ -1,0 +1,14 @@
+
+.mainNavbarContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    color: red;
+    padding: 10px;
+    width: 100%;
+    height: 5%;
+    margin-right: 0;
+    padding-right: 0;
+    /* background-color: rgb(215, 213, 215); */
+}

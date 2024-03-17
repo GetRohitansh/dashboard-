@@ -1,0 +1,38 @@
+.disability-team-members {
+    flex: 4;
+    background-color: rgba(224, 216, 216, 0.226);
+    
+}
+
+.sidebar {
+    width: 17%;
+}
+
+.selector-space {
+    height: 10%;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.6); /* Black with 40% opacity */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-state{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: auto;
+    height: 50%;
+}
+
+.team-member {
+    user-select: none;
+    width: 100%;
+    position: relative; /* Ensure z-index works correctly */
+    z-index: 1; /* Place the team-member above the selector-space */
+}

@@ -1,0 +1,30 @@
+.mainSidebarContainer {
+    flex: 0.8;
+    background-color: white;
+    height: 100vh;
+}
+
+.liContainer {
+    display: flex;
+    align-items: center;
+    margin-top: -7px;
+}
+
+.ulContainer {
+    margin-top: 30px;
+}
+
+.menu {
+    display: flex;
+    color: rgb(66, 71, 75)
+}
+
+.sideBarIcons {
+    width: 20px;
+    height: 20px;
+}
+
+.itemName {
+    margin-left: 10px;
+    color: rgb(70, 76, 81);
+}
